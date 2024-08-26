@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f1fe;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+h1 {
+  color: #6d6875;
+  font-weight: bold;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px rgb(180, 84, 159);
+}
+p {
+  color: #8b8c89;
+  font-size: 2rem;
+  font-weight: 500;
+}
+input {
+  height: 35px;
+  width: 73px;
+  font-size: large;
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus {
+  outline-color: #e5989b;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #b5838d;
+  color: #403d39;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+button:hover {
+  cursor: pointer;
+  background-color: #e5989b;
+}
+
+.hint {
+  color: #403d39;
+}
+.attempts {
+  color: #e5989b;
+}
